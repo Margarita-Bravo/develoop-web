@@ -17,12 +17,14 @@
   <nav id="navbar">
     <div class="nav-inner">
       <a href="#home" class="logo">Deve<span>.</span>loop</a>
-      <ul class="nav-links">
+      <ul class="nav-links" id="nav-links">
         <li><a href="#nosotros">Nosotros</a></li>
         <li><a href="#servicios">Servicios</a></li>
         <li><a href="#proceso">Proceso</a></li>
         <li><a href="#contacto" class="nav-cta">Contactanos</a></li>
       </ul>
+              <button id="menu-btn" onclick="document.getElementById('nav-links').classList.toggle('open')" style="display:none; background:none; border:none; color:var(--text); font-size:1.5rem; cursor:pointer; padding:0.5rem;">☰</button>
+
     </div>
   </nav>
 

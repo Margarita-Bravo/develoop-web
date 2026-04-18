@@ -154,7 +154,7 @@
     h1 {
       font-family: var(--font-display);
       font-weight: 800;
-      font-size: clamp(3rem, 7vw, 6rem);
+      font-size: clamp(2rem, 8vw, 6rem);
       line-height: 1.0;
       letter-spacing: -0.04em;
       margin-bottom: 1.5rem;
@@ -627,7 +627,7 @@
 
     /* ── MOBILE ── */
     @media (max-width: 900px) {
-        #home { padding-top: 2rem; min-height: auto; }
+        #home { padding-top: 5rem; min-height: auto; }
         .nav-links { display: none; }
         .hero-card-deco { display: none; }
         .nosotros-grid { grid-template-columns: 1fr; }
@@ -640,5 +640,7 @@
         .hero-stats { gap: 2rem; flex-wrap: wrap; }
         .nav-links { display: none; }
         .process-steps::before { display: none; }
+        #menu-btn { display: block !important; }
+        .nav-links.open { display: flex; flex-direction: column; position: fixed; top: 4rem; left: 0; right: 0; background: var(--bg); padding: 2rem; gap: 1.5rem; border-bottom: 1px solid var(--border); z-index: 99; }
     }
   
