@@ -24,7 +24,7 @@
       overflow-x: hidden;
     }
 
-    /* ── NOISE TEXTURE ── */
+    /* ── textura ── */
     body::before {
       content: '';
       position: fixed;

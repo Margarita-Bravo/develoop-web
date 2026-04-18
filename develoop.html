@@ -49,6 +49,10 @@
         <a href="#contacto" class="btn-primary-custom">Hablemos de tu proyecto</a>
         <a href="#servicios" class="btn-ghost">Ver servicios</a>
       </div>
+
+      <!-- para más adelante!!! -->
+
+      
       <!-- <div class="hero-stats">
         <div>
           <div class="stat-num">2+</div>
@@ -298,7 +302,7 @@
     }, { threshold: 0.12 });
     reveals.forEach(el => observer.observe(el));
 
-    // Form submit via Formspree
+    // Form x Formspree
     async function handleSubmit(e) {
       e.preventDefault();
       const btn = document.getElementById('submit-btn');
@@ -337,7 +341,7 @@
           throw new Error();
         }
       } catch {
-        // En dev, simulamos éxito si Formspree no está configurado
+        
         document.getElementById('form-content').style.display = 'none';
         document.getElementById('form-success').classList.add('show');
       }
