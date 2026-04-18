@@ -627,6 +627,8 @@
 
     /* ── MOBILE ── */
     @media (max-width: 900px) {
+    #home { padding-top: 2rem; min-height: auto; }
+    .nav-links { display: none; }
       .hero-card-deco { display: none; }
       .nosotros-grid { grid-template-columns: 1fr; }
       #servicios .section-inner { grid-template-columns: 1fr; }
