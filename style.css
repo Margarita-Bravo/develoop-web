@@ -642,5 +642,6 @@
         .process-steps::before { display: none; }
         #menu-btn { display: block !important; }
         .nav-links.open { display: flex; flex-direction: column; position: fixed; top: 4rem; left: 0; right: 0; background: var(--bg); padding: 2rem; gap: 1.5rem; border-bottom: 1px solid var(--border); z-index: 99; }
+        .orb { display: none; }
     }
   
